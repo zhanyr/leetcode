@@ -25,16 +25,16 @@ import "fmt"
 //
 //    wg.Wait()
 //}
-
-func main() {
-
-    ret := make(chan string, 1)
-
-    ret <- "1"
-
-    a := <-ret
-    fmt.Println(a)
-
-
-
-}
+//
+//func main() {
+//
+//    ret := make(chan string, 1)
+//
+//    ret <- "1"
+//
+//    a := <-ret
+//    fmt.Println(a)
+//
+//
+//
+//}
