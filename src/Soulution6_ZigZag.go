@@ -1,11 +1,11 @@
 package main
 
-import "fmt"
+//import "fmt"
 
-func main() {
-    s:= "PAYPALISHIRING"
-    fmt.Println(convert(s, 3))
-}
+//func main() {
+//    s:= "PAYPALISHIRING"
+//    fmt.Println(convert(s, 3))
+//}
 //锯齿形矩阵按行输出
 //1.循环间隔numRows + numRows -2
 //2.除了第一行和最后一行，多了一组循环，循环与上一个之间的间隔是 (2n-2i-2)
